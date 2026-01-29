@@ -2,8 +2,6 @@
 require "db_connect.php";
 require "header.php";
 
-int_set('display_errors', 1);
-error_reporting(E_ALL);
 
 // TODO: สร้าง SQL
 $sql = "SELECT * FROM users";
